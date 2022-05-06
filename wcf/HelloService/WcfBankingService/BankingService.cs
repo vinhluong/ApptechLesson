@@ -93,5 +93,37 @@ namespace WcfBankingService
             return (new JavaScriptSerializer().Serialize(bankAccount));
             
         }
+        public BankAccountResponse GetBankAccountMessageContract(BankAccountRequest Req)
+        {
+            var bankAccount = new BankAccountResponse() {
+                Code = 0,
+                IsError = false,
+                Message = "",
+                Obj = new BankAccount()
+            };
+
+            if (Req.AuthCode == "p@ssword")
+            {
+
+                var cn = new BankDAO();
+                var connection = cn.ConnectDB();
+                var table = cn.ExecuteQuery(connection, "select * from BankAccounts where accno ='" + Req.AccNo + "'");
+                if (table.Tables.Count > 0 && table.Tables[0].Rows.Count > 0)
+                {
+                    bankAccount.Obj.AccNo = table.Tables[0].Rows[0]["accno"].ToString();
+                    bankAccount.Obj.AccFname = table.Tables[0].Rows[0]["accfname"].ToString();
+                    bankAccount.Obj.AccActive = int.Parse(table.Tables[0].Rows[0]["accactive"].ToString());
+                    bankAccount.Obj.AccAmount = double.Parse(table.Tables[0].Rows[0]["accamount"].ToString());
+                }
+            }
+            else
+            {
+                bankAccount.Code = -1;
+                bankAccount.IsError = true;
+                bankAccount.Message = "Wrong Password";
+            }
+            return bankAccount;
+
+        }
     }
 }

@@ -29,5 +29,12 @@ namespace WcfBankingService
         [OperationContract]
         [WebInvoke(Method = "POST", ResponseFormat = WebMessageFormat.Json)]
         string GetBankAccountJson(string accno);
+
+
+        //MessageContract
+        [OperationContract]
+        [FaultContract(typeof(string))]
+        BankAccountResponse GetBankAccountMessageContract(BankAccountRequest Req);
+       
     }
 }
