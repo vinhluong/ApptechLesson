@@ -5,3 +5,10 @@ C:\Users\KV1-HT-0983\source\repos\HelloService\WcfBankingService\bin\Debug\WcfBa
 C:\Users\KV1-HT-0983\source\repos\HelloService\WcfBankingService\bin\Debug\WcfBankingService.pdb
 C:\Users\KV1-HT-0983\source\repos\HelloService\WcfBankingService\obj\Debug\WcfBankingService.exe
 C:\Users\KV1-HT-0983\source\repos\HelloService\WcfBankingService\obj\Debug\WcfBankingService.pdb
+F:\Aptech\Code\ApptechLesson\wcf\HelloService\WcfBankingService\bin\Debug\WcfBankingService.exe.config
+F:\Aptech\Code\ApptechLesson\wcf\HelloService\WcfBankingService\bin\Debug\WcfBankingService.exe
+F:\Aptech\Code\ApptechLesson\wcf\HelloService\WcfBankingService\bin\Debug\WcfBankingService.pdb
+F:\Aptech\Code\ApptechLesson\wcf\HelloService\WcfBankingService\obj\Debug\WcfBankingService.csproj.AssemblyReference.cache
+F:\Aptech\Code\ApptechLesson\wcf\HelloService\WcfBankingService\obj\Debug\WcfBankingService.csproj.CoreCompileInputs.cache
+F:\Aptech\Code\ApptechLesson\wcf\HelloService\WcfBankingService\obj\Debug\WcfBankingService.exe
+F:\Aptech\Code\ApptechLesson\wcf\HelloService\WcfBankingService\obj\Debug\WcfBankingService.pdb

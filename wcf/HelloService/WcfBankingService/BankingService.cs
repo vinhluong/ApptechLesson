@@ -65,15 +65,24 @@ namespace WcfBankingService
         public BankAccount GetBankAccount(string accno)
         {
             var bankAccount = new BankAccount();
-            var cn = new BankDAO();
-            var connection = cn.ConnectDB();
-            var table = cn.ExecuteQuery(connection, "select * from BankAccounts where accno ='" + accno + "'");
-            if (table.Tables.Count > 0 && table.Tables[0].Rows.Count > 0)
+            try
+            {               
+                var cn = new BankDAO();
+                var connection = cn.ConnectDB();
+                var table = cn.ExecuteQuery(connection, "select * from BankAccounts where accno ='" + accno + "'");
+                if (table.Tables.Count > 0 && table.Tables[0].Rows.Count > 0)
+                {
+                    bankAccount.AccNo = table.Tables[0].Rows[0]["accno"].ToString();
+                    bankAccount.AccFname = table.Tables[0].Rows[0]["accfname"].ToString();
+                    bankAccount.AccActive = int.Parse(table.Tables[0].Rows[0]["accactive"].ToString());
+                    bankAccount.AccAmount = double.Parse(table.Tables[0].Rows[0]["accamount"].ToString());
+                }
+            }
+            catch (Exception e)
             {
-                bankAccount.AccNo = table.Tables[0].Rows[0]["accno"].ToString();
-                bankAccount.AccFname = table.Tables[0].Rows[0]["accfname"].ToString();
-                bankAccount.AccActive = int.Parse(table.Tables[0].Rows[0]["accactive"].ToString());
-                bankAccount.AccAmount = double.Parse(table.Tables[0].Rows[0]["accamount"].ToString());
+                CustomException m = new CustomException();
+                m.Reason = e.ToString();
+                throw new FaultException<CustomException>(m);
             }
             return bankAccount;
         }

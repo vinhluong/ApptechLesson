@@ -25,16 +25,16 @@ namespace WcfBankingService
         double ShowBalanceWithTimeOut(string accno);
 
         [OperationContract]
+        [FaultContract(typeof(CustomException))]
         BankAccount GetBankAccount(string accno);
         [OperationContract]
         [WebInvoke(Method = "POST", ResponseFormat = WebMessageFormat.Json)]
         string GetBankAccountJson(string accno);
-
-
         //MessageContract
         [OperationContract]
-        [FaultContract(typeof(string))]
         BankAccountResponse GetBankAccountMessageContract(BankAccountRequest Req);
+
+
        
     }
 }

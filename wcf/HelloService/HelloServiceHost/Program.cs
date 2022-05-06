@@ -12,9 +12,9 @@ namespace HelloServiceHost
         {
             using (ServiceHost host = new ServiceHost(typeof(HelloService.HelloService)))
             {
-               // host.Open();
+                /*host.Open();
                 Console.WriteLine("HelloService started @" + DateTime.Now.ToString());
-                //Console.ReadLine();
+                Console.ReadLine();*/
             }
             using (ServiceHost hostBankingService = new ServiceHost(typeof(WcfBankingService.BankingService)))
             {

@@ -13,5 +13,6 @@ namespace HelloService
     {
         [OperationContract]
         string GetMessage(string mes);
+  
     }
 }

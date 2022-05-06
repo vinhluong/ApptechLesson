@@ -5,3 +5,10 @@ C:\Users\KV1-HT-0983\source\repos\HelloService\HelloService\obj\Debug\HelloServi
 C:\Users\KV1-HT-0983\source\repos\HelloService\HelloService\obj\Debug\HelloService.exe
 C:\Users\KV1-HT-0983\source\repos\HelloService\HelloService\obj\Debug\HelloService.pdb
 C:\Users\KV1-HT-0983\source\repos\HelloService\HelloService\obj\Debug\HelloService.csproj.AssemblyReference.cache
+F:\Aptech\Code\ApptechLesson\wcf\HelloService\HelloService\bin\Debug\HelloService.exe.config
+F:\Aptech\Code\ApptechLesson\wcf\HelloService\HelloService\bin\Debug\HelloService.exe
+F:\Aptech\Code\ApptechLesson\wcf\HelloService\HelloService\bin\Debug\HelloService.pdb
+F:\Aptech\Code\ApptechLesson\wcf\HelloService\HelloService\obj\Debug\HelloService.csproj.AssemblyReference.cache
+F:\Aptech\Code\ApptechLesson\wcf\HelloService\HelloService\obj\Debug\HelloService.csproj.CoreCompileInputs.cache
+F:\Aptech\Code\ApptechLesson\wcf\HelloService\HelloService\obj\Debug\HelloService.exe
+F:\Aptech\Code\ApptechLesson\wcf\HelloService\HelloService\obj\Debug\HelloService.pdb
