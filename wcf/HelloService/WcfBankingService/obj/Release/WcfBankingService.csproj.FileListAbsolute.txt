@@ -1,0 +1,7 @@
+C:\Users\KV1-HT-0983\source\repos\HelloService\WcfBankingService\bin\Release\WcfBankingService.exe.config
+C:\Users\KV1-HT-0983\source\repos\HelloService\WcfBankingService\bin\Release\WcfBankingService.exe
+C:\Users\KV1-HT-0983\source\repos\HelloService\WcfBankingService\bin\Release\WcfBankingService.pdb
+C:\Users\KV1-HT-0983\source\repos\HelloService\WcfBankingService\obj\Release\WcfBankingService.csproj.AssemblyReference.cache
+C:\Users\KV1-HT-0983\source\repos\HelloService\WcfBankingService\obj\Release\WcfBankingService.csproj.CoreCompileInputs.cache
+C:\Users\KV1-HT-0983\source\repos\HelloService\WcfBankingService\obj\Release\WcfBankingService.exe
+C:\Users\KV1-HT-0983\source\repos\HelloService\WcfBankingService\obj\Release\WcfBankingService.pdb

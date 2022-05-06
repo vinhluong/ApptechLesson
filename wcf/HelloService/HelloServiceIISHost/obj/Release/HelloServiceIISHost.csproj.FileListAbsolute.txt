@@ -1,0 +1,11 @@
+C:\Users\KV1-HT-0983\source\repos\HelloService\HelloServiceIISHost\bin\HelloServiceIISHost.dll.config
+C:\Users\KV1-HT-0983\source\repos\HelloService\HelloServiceIISHost\bin\HelloServiceIISHost.dll
+C:\Users\KV1-HT-0983\source\repos\HelloService\HelloServiceIISHost\bin\HelloServiceIISHost.pdb
+C:\Users\KV1-HT-0983\source\repos\HelloService\HelloServiceIISHost\bin\WcfBankingService.exe
+C:\Users\KV1-HT-0983\source\repos\HelloService\HelloServiceIISHost\bin\WcfBankingService.pdb
+C:\Users\KV1-HT-0983\source\repos\HelloService\HelloServiceIISHost\bin\WcfBankingService.exe.config
+C:\Users\KV1-HT-0983\source\repos\HelloService\HelloServiceIISHost\obj\Release\HelloServiceIISHost.csproj.AssemblyReference.cache
+C:\Users\KV1-HT-0983\source\repos\HelloService\HelloServiceIISHost\obj\Release\HelloServiceIISHost.csproj.CoreCompileInputs.cache
+C:\Users\KV1-HT-0983\source\repos\HelloService\HelloServiceIISHost\obj\Release\HelloServiceIISHost.csproj.CopyComplete
+C:\Users\KV1-HT-0983\source\repos\HelloService\HelloServiceIISHost\obj\Release\HelloServiceIISHost.dll
+C:\Users\KV1-HT-0983\source\repos\HelloService\HelloServiceIISHost\obj\Release\HelloServiceIISHost.pdb
